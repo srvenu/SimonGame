@@ -2,10 +2,13 @@
 
 Simon Game is a classic memory-based game where players repeat an increasing sequence of colored lights and sounds. This is a fun and interactive implementation of the game.
 
+## Play Game 
+Click here to play Simon Game (https://srvenu.github.io/SimonGame/)
+
 ## 🚀 Demo
 
 ![Simon Game](game.gif)  
-*Replace with your actual GIF if needed.*
+*Simon GamePlay*
 
 ## 🛠 Features
 - Four color buttons with unique sounds
