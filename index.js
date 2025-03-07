@@ -4,9 +4,10 @@ var userClickedPattern = [];
 var started = false;
 var level = 0;
 
-// Start game on keypress (desktop) or touch/click (mobile)
-$(document).on("keypress touchstart", function () {
+// Start game on click (works for both desktop & mobile)
+$(document).on("click", function () {
     if (!started) {
+        console.log("Game started!");  // Debugging
         startGame();
     }
 });
@@ -31,11 +32,13 @@ function nextSequence() {
     playSound(randomChosenColour);
 }
 
-// Handle user button clicks (desktop + mobile)
-$(".btn").on("click touchstart", function () {
+// Handle user button clicks (for mobile & desktop)
+$(".btn").on("click", function () {
     if (!started) return;
 
     var userChosenColour = $(this).attr("id");
+    console.log("Button clicked:", userChosenColour); // Debugging
+
     userClickedPattern.push(userChosenColour);
 
     animatePress(userChosenColour);
