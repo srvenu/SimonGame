@@ -4,7 +4,7 @@ Simon Game is a classic memory-based game where players repeat an increasing seq
 
 ## 🚀 Demo
 
-![Simon Game](https://github.com/srvenu/SimonGame/blob/main/demo.gif)  
+![Simon Game](game.gif)  
 *Replace with your actual GIF if needed.*
 
 ## 🛠 Features
@@ -29,8 +29,7 @@ Simon Game is a classic memory-based game where players repeat an increasing seq
 3. Start playing and test your memory skills!
 
 ## 📷 Screenshots
-![Gameplay](https://github.com/srvenu/SimonGame/blob/main/screenshot1.png)
-![Game Over](https://github.com/srvenu/SimonGame/blob/main/screenshot2.png)
+![Gameplay](game.jpeg)
 
 ## 🛠 Technologies Used
 - HTML, CSS, JavaScript
